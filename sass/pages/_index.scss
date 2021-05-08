@@ -1,4 +1,4 @@
-@import "../utils/variables.scss";
+@import "../utils/_variables.scss";
 
 .localisation {
   background-color: $localizecolor;
@@ -13,5 +13,43 @@
   span {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
+  }
+}
+
+.presentation {
+  background-color: $softgrey;
+  height: fit-content;
+  padding: 1.25rem 1rem;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin-bottom: 9px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  .presentation__button {
+    display: flex;
+    width: fit-content;
+    align-self: center;
+    height: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: linear-gradient($secondary-color, $primary-color);
+    border-radius: 2rem;
+    box-shadow: 0 4px 15px -2px #afafaf;
+    a {
+      display: flex;
+      align-self: center;
+      text-decoration: none;
+      color: white;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+    }
   }
 }

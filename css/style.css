@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
   margin: 0;
 }
@@ -9,7 +10,9 @@ header {
   display: flex;
   justify-content: center;
   align-content: center;
-  box-shadow: 0px 10px 18px -6px rgba(0, 0, 0, 0.51);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  position: relative;
 }
 header img {
   width: 196px;
@@ -30,6 +33,44 @@ header img {
 .localisation span {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
+}
+
+.presentation {
+  background-color: #f6f6f6;
+  height: fit-content;
+  padding: 1.25rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.presentation h1 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-bottom: 9px;
+  text-align: center;
+}
+.presentation p {
+  text-align: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.presentation .presentation__button {
+  display: flex;
+  width: fit-content;
+  align-self: center;
+  height: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background: linear-gradient(#ff79da, #9356dc);
+  border-radius: 2rem;
+  box-shadow: 0 4px 15px -2px #afafaf;
+}
+.presentation .presentation__button a {
+  display: flex;
+  align-self: center;
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
