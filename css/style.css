@@ -2,9 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
   margin: 0;
+  max-width: 500px;
+  margin: auto;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: #f6f6f6;
 }
 
+@media (min-width: 500px) {
+  body {
+    border-left: 2px solid #9356dc;
+    border-right: 2px solid #ff79da;
+  }
+}
 header {
   height: 5rem;
   background-color: #fff;
@@ -80,6 +89,10 @@ header img {
   font-size: 1rem;
 }
 
+.fonctionnement {
+  background-color: #fff;
+  padding-top: 30px;
+}
 .fonctionnement h2 {
   margin-left: 1.5rem;
   margin-bottom: 2rem;
@@ -133,16 +146,19 @@ header img {
   box-shadow: 0 4px 15px -2px #afafaf;
   background-color: #f6f6f6;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  padding-right: 20%;
-  font-weight: 500;
-  font-size: 1rem;
 }
 .fonctionnement .fonctionnement__button .button i {
-  margin-left: 10%;
+  margin-left: 8%;
   margin-right: 8%;
+}
+.fonctionnement .fonctionnement__button .button span {
+  margin-left: 7px;
+}
+.fonctionnement .fonctionnement__button .button #thirdspan {
+  margin-left: -3px;
 }
 
 /*# sourceMappingURL=style.css.map */

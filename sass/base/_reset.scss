@@ -1,4 +1,16 @@
+@import "../utils/variables";
+
 body {
   margin: 0;
+  max-width: 500px;
+  margin: auto;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: $softgrey;
+}
+
+@media (min-width: 500px) {
+  body {
+    border-left: 2px solid $primary-color;
+    border-right: 2px solid $secondary-color;
+  }
 }
