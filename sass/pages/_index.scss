@@ -47,12 +47,15 @@
     background: linear-gradient($secondary-color, $primary-color);
     border-radius: 2rem;
     box-shadow: 0 4px 15px -2px #afafaf;
+    border: none;
+    cursor: pointer;
     a {
       display: flex;
       align-self: center;
       text-decoration: none;
       color: white;
       font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-size: 1rem;
     }
   }
 }
