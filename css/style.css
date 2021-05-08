@@ -133,11 +133,11 @@ header img {
   box-shadow: 0 4px 15px -2px #afafaf;
   background-color: #f6f6f6;
   display: flex;
-  justify-content: none;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   padding-right: 20%;
-  font-weight: 535;
+  font-weight: 500;
   font-size: 1rem;
 }
 .fonctionnement .fonctionnement__button .button i {
