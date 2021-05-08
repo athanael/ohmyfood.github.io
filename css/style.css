@@ -136,13 +136,11 @@ header img {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  padding-right: 20%;
+  font-weight: 535;
 }
 .fonctionnement .fonctionnement__button .button i {
   margin-left: 10%;
-}
-.fonctionnement .fonctionnement__button .button p {
-  margin-right: 20%;
-  font-weight: 535;
 }
 
 /*# sourceMappingURL=style.css.map */
