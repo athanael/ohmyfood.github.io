@@ -106,6 +106,7 @@ header img {
   margin-bottom: 25px;
   background-color: transparent;
   border-radius: 1.2rem;
+  max-width: 275px;
 }
 .fonctionnement .fonctionnement__button .fonctionnement__number {
   display: flex;
@@ -140,7 +141,7 @@ header img {
   margin-left: 10%;
 }
 .fonctionnement .fonctionnement__button .button p {
-  margin-right: 15%;
+  margin-right: 20%;
   font-weight: 535;
 }
 
