@@ -1,15 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 body {
   margin: 0;
 }
 
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url("/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Roboto-Medium";
-  src: url("/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
-}
 header {
   height: 5rem;
   background-color: #fff;
@@ -35,7 +28,7 @@ header img {
   align-self: center;
 }
 .localisation span {
-  font-family: "Roboto-Medium", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
 }
 
