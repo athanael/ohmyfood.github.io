@@ -95,6 +95,8 @@
       margin-left: 11px;
       box-shadow: 0 4px 15px -2px #afafaf;
       background-color: $softgrey;
+      font-size: 1rem;
+      font-weight: 500;
       @include flexdisplay(flex-start, center);
       i {
         margin-left: 8%;
