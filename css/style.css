@@ -80,4 +80,68 @@ header img {
   font-size: 1rem;
 }
 
+.fonctionnement h2 {
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+.fonctionnement .container {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fonctionnement .container .fonctionnement__number {
+  height: 10px;
+  z-index: 1;
+}
+.fonctionnement .fonctionnement__button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  height: 5rem;
+  width: 85%;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  background-color: transparent;
+  border-radius: 1.2rem;
+}
+.fonctionnement .fonctionnement__button .fonctionnement__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  z-index: 2;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  background-color: #9356dc;
+  position: absolute;
+  color: #fff;
+}
+.fonctionnement .fonctionnement__button .button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  z-index: 1;
+  position: relative;
+  border-radius: 1.2rem;
+  margin-left: 11px;
+  box-shadow: 0 4px 15px -2px #afafaf;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.fonctionnement .fonctionnement__button .button i {
+  margin-left: 10%;
+}
+.fonctionnement .fonctionnement__button .button p {
+  margin-right: 15%;
+  font-weight: 535;
+}
+
 /*# sourceMappingURL=style.css.map */

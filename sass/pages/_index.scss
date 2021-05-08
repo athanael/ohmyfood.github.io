@@ -51,3 +51,57 @@
     font-size: 1rem;
   }
 }
+
+.fonctionnement {
+  h2 {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .container {
+    height: fit-content;
+    @include flexdisplay(center, center, column);
+    .fonctionnement__number {
+      height: 10px;
+      z-index: 1;
+    }
+  }
+  .fonctionnement__button {
+    @include flexdisplay(flex-start, center);
+    height: 5rem;
+    width: 85%;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border-radius: 1.2rem;
+    .fonctionnement__number {
+      @include flexdisplay(center, center);
+      z-index: 2;
+      height: 25px;
+      width: 25px;
+      border-radius: 100%;
+      background-color: $primary-color;
+      position: absolute;
+      color: #fff;
+    }
+    .button {
+      width: 100%;
+      border: none;
+      cursor: pointer;
+      height: 100%;
+      z-index: 1;
+      position: relative;
+      border-radius: 1.2rem;
+      margin-left: 11px;
+      box-shadow: 0 4px 15px -2px #afafaf;
+      background-color: $softgrey;
+      @include flexdisplay(space-between, center);
+      i {
+        margin-left: 10%;
+      }
+      p {
+        margin-right: 15%;
+        font-weight: 535;
+      }
+    }
+  }
+}
