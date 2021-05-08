@@ -73,7 +73,7 @@
     margin-bottom: 25px;
     background-color: transparent;
     border-radius: 1.2rem;
-    max-width: 275px;
+    max-width: 350px;
     .fonctionnement__number {
       @include flexdisplay(center, center);
       z-index: 2;
@@ -95,12 +95,14 @@
       margin-left: 11px;
       box-shadow: 0 4px 15px -2px #afafaf;
       background-color: $softgrey;
-      @include flexdisplay(space-between, center);
+      @include flexdisplay(none, center);
       i {
         margin-left: 10%;
+        margin-right: 8%;
       }
       padding-right: 20%;
       font-weight: 535;
+      font-size: 1rem;
     }
   }
 }

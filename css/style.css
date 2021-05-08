@@ -106,7 +106,7 @@ header img {
   margin-bottom: 25px;
   background-color: transparent;
   border-radius: 1.2rem;
-  max-width: 275px;
+  max-width: 350px;
 }
 .fonctionnement .fonctionnement__button .fonctionnement__number {
   display: flex;
@@ -133,14 +133,16 @@ header img {
   box-shadow: 0 4px 15px -2px #afafaf;
   background-color: #f6f6f6;
   display: flex;
-  justify-content: space-between;
+  justify-content: none;
   align-items: center;
   flex-direction: row;
   padding-right: 20%;
   font-weight: 535;
+  font-size: 1rem;
 }
 .fonctionnement .fonctionnement__button .button i {
   margin-left: 10%;
+  margin-right: 8%;
 }
 
 /*# sourceMappingURL=style.css.map */
