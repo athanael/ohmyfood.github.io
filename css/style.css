@@ -21,9 +21,11 @@ header img {
 }
 
 .localisation {
-  background-color: #eaeaea;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #eaeaea;
   height: fit-content;
   padding: 1.25rem 1rem;
 }
@@ -39,11 +41,13 @@ header img {
 }
 
 .presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #f6f6f6;
   height: fit-content;
   padding: 1.25rem 1rem;
-  display: flex;
-  flex-direction: column;
 }
 .presentation h1 {
   margin-bottom: 9px;
@@ -55,9 +59,11 @@ header img {
 }
 .presentation .presentation__button {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   width: fit-content;
   align-self: center;
-  align-items: center;
   height: 3rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
