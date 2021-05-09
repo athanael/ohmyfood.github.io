@@ -115,6 +115,20 @@
   border-radius: 1rem;
   margin-bottom: 20px;
   cursor: pointer;
+  .nouveau {
+    position: absolute;
+    height: 30px;
+    width: fit-content;
+    background-color: $tertiary-color;
+    right: 15px;
+    top: 15px;
+    @include flexdisplay(center, center);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+    color: #1b6150;
+    font-size: 1rem;
+  }
   img {
     height: 70%;
     width: 100%;

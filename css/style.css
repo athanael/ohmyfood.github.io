@@ -366,6 +366,23 @@ footer .footer__links {
   margin-bottom: 20px;
   cursor: pointer;
 }
+.restaurant__card .nouveau {
+  position: absolute;
+  height: 30px;
+  width: fit-content;
+  background-color: #99e2d0;
+  right: 15px;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 400;
+  color: #1b6150;
+  font-size: 1rem;
+}
 .restaurant__card img {
   height: 70%;
   width: 100%;
