@@ -107,6 +107,7 @@
 }
 
 .restaurant__card {
+  cursor: pointer;
   height: 300px;
   width: 90%;
   margin: auto;
@@ -114,7 +115,6 @@
   position: relative;
   border-radius: 1rem;
   margin-bottom: 20px;
-  cursor: pointer;
   img {
     height: 70%;
     width: 100%;
