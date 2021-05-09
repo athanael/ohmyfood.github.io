@@ -31,25 +31,6 @@
     text-align: center;
     font-weight: 100;
   }
-  .presentation__button {
-    @include flexdisplay(center, center);
-    width: fit-content;
-    align-self: center;
-    height: 3rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    background: linear-gradient($secondary-color, $primary-color);
-    border-radius: 2rem;
-    box-shadow: 0 4px 15px -2px #afafaf;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-size: 1rem;
-  }
 }
 
 .fonctionnement {
@@ -133,6 +114,7 @@
   position: relative;
   border-radius: 1rem;
   margin-bottom: 20px;
+  cursor: pointer;
   img {
     height: 70%;
     width: 100%;
@@ -167,34 +149,5 @@
       right: 20px;
       top: 20px;
     }
-  }
-}
-
-footer {
-  background-color: #353535;
-  height: fit-content;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  @include flexdisplay(space-between, flex-start, column);
-  h2 {
-    font-family: "Shrikhand", Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding-left: 1.5rem;
-    color: #fff;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    margin-bottom: 14px;
-  }
-  a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 400;
-    word-spacing: 2px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-  .footer__links {
-    @include flexdisplay(space-between, flex-start, column);
-    padding-left: 1.5rem;
   }
 }

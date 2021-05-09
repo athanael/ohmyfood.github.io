@@ -1,0 +1,19 @@
+.presentation__button {
+  @include flexdisplay(center, center);
+  width: fit-content;
+  align-self: center;
+  height: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background: linear-gradient($secondary-color, $primary-color);
+  border-radius: 2rem;
+  box-shadow: 0 4px 15px -2px #afafaf;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
