@@ -75,7 +75,7 @@ footer .footer__links {
 .header__menu {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -108,20 +108,10 @@ footer .footer__links {
 }
 .photo .photo__crop i {
   padding-right: 30px;
-  margin-top: 50px;
+  margin-top: 15px;
   align-self: flex-end;
-  padding-bottom: 8px;
 }
 
-@media (max-width: 390px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  i {
-    padding-bottom: 0 !important;
-  }
-}
 .menu {
   z-index: 1;
   top: 330px;

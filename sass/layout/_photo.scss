@@ -1,7 +1,7 @@
 @import "../utils/variables";
 @import "../utils/mixins";
 .header__menu {
-  @include flexdisplay(space-between, flex-end);
+  @include flexdisplay(space-between, center);
 }
 
 .photo {
@@ -31,18 +31,8 @@
     }
     i {
       padding-right: 30px;
-      margin-top: 50px;
+      margin-top: 15px;
       align-self: flex-end;
-      padding-bottom: 8px;
     }
-  }
-}
-
-@media (max-width: 450px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-  i {
-    padding-bottom: 0 !important;
   }
 }
