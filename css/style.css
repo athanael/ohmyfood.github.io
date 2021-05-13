@@ -57,7 +57,7 @@ body {
 }
 
 .loader__container div:nth-child(2) {
-  animation-delay: -0.3s;
+  animation-delay: -0.5s;
 }
 
 @keyframes get-bigger {
@@ -109,6 +109,34 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border: none;
+}
+
+.confirmation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 75px;
+  background-color: #99e2d0;
+  border-radius: 0 1rem 1rem 0;
+  transition: margin, 500ms;
+  height: 100%;
+}
+
+.confirmation--icon {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.confirmation--icon i {
+  color: #99e2d0;
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
 }
 
 header {
@@ -239,22 +267,45 @@ footer .footer__links {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
   height: 80px;
+  width: 90%;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 0 4px 15px -2px #afafaf;
+  border-radius: 1rem;
+  position: relative;
 }
 
 .plat__button {
   height: 90px;
   background-color: white;
-  width: 90%;
-  box-shadow: 0 4px 15px -2px #afafaf;
-  border-radius: 1rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   white-space: nowrap;
   position: relative;
+}
+.plat__button > .hover__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px -75px 0px 0px;
+  transition: margin, 400ms;
+  right: 0;
+  height: 100%;
+}
+.plat__button > .hover__container > .confirmation > .confirmation--icon {
+  transition-duration: 0.5s;
+}
+.plat__button:hover > .hover__container {
+  margin: 0;
+}
+.plat__button:hover > .hover__container > .confirmation > .confirmation--icon {
+  transform: rotate(-180deg);
 }
 
 .plat__text {

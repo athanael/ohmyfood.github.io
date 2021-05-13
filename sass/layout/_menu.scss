@@ -46,19 +46,45 @@
 
 .plat__container {
   @include flexdisplay(flex-start, center, column);
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
   height: 80px;
+  width: 90%;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 0 4px 15px -2px #afafaf;
+  border-radius: 1rem;
+  position: relative;
 }
 
 .plat__button {
   height: 90px;
   background-color: white;
-  width: 90%;
-  box-shadow: 0 4px 15px -2px #afafaf;
-  border-radius: 1rem;
+  width: 100%;
   @include flexdisplay(space-between, center);
   white-space: nowrap;
   position: relative;
+  > .hover__container {
+    @include flexdisplay(center, center);
+    margin: 0px -75px 0px 0px;
+    transition: margin, 400ms;
+    right: 0;
+    height: 100%;
+    > .confirmation {
+      > .confirmation--icon {
+        transition-duration: 0.5s;
+      }
+    }
+  }
+  &:hover {
+    > .hover__container {
+      margin: 0;
+      > .confirmation {
+        > .confirmation--icon {
+          transform: rotate(-180deg);
+        }
+      }
+    }
+  }
 }
 
 .plat__text {

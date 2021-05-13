@@ -1,0 +1,24 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.confirmation {
+  @include flexdisplay(center, center);
+  width: 75px;
+  background-color: $tertiary-color;
+  border-radius: 0 1rem 1rem 0;
+  transition: margin, 500ms;
+  height: 100%;
+}
+
+.confirmation--icon {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 100px;
+  @include flexdisplay(center, center);
+  i {
+    color: $tertiary-color;
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+  }
+}
