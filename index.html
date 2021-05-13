@@ -11,6 +11,12 @@
 </head>
 
 <body>
+    <div class="loader">
+        <div class="loader__container">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <header class="header">
         <img src="./img/logo/ohmyfood@2x.svg" alt="logo">
     </header>
@@ -67,8 +73,12 @@
                     <h3>La palette du goût</h3>
                     <p>Ménilmontant</p>
                 </div>
-                <div class="heart"><i class="card__like fa-2x fa-heart far menu__like menu__like--noBg"
-                        aria-hidden="true"></i></div>
+                <div class="heart">
+                    <i class="far fa-heart fa-2x"></i>
+                </div>
+                <div class="heart--hover">
+                    <i class="fas fa-heart fa-2x fa-gradient"></i>
+                </div>
             </div>
         </article>
         <article class="restaurant__card" onclick="window.location.href='./html/lanoteenchantee.html'">
@@ -81,6 +91,9 @@
                 </div>
                 <div class="heart"><i class="card__like fa-2x fa-heart far menu__like menu__like--noBg"
                         aria-hidden="true"></i></div>
+                <div class="heart--hover">
+                    <i class="fas fa-heart fa-2x fa-gradient"></i>
+                </div>
             </div>
         </article>
         <article class="restaurant__card" onclick="window.location.href='./html/alafrancaise.html'">
@@ -91,7 +104,11 @@
                     <p>Cité Rouge</p>
                 </div>
                 <div class="heart"><i class="card__like fa-2x fa-heart far menu__like menu__like--noBg"
-                        aria-hidden="true"></i></div>
+                        aria-hidden="true"></i>
+                </div>
+                <div class="heart--hover">
+                    <i class="fas fa-heart fa-2x fa-gradient"></i>
+                </div>
             </div>
         </article>
         <article class="restaurant__card" onclick="window.location.href='./html/ledelicedessens.html'">
@@ -103,6 +120,9 @@
                 </div>
                 <div class="heart"><i class="card__like fa-2x fa-heart far menu__like menu__like--noBg"
                         aria-hidden="true"></i></div>
+                <div class="heart--hover">
+                    <i class="fas fa-heart fa-2x fa-gradient"></i>
+                </div>
             </div>
         </article>
     </section>

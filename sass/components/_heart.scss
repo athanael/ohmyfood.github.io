@@ -1,0 +1,28 @@
+@import "../utils/variables";
+
+.heart {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  transition: 300ms;
+}
+
+.heart--hover {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: none;
+}
+
+.fa-gradient {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from($secondary-color),
+    to($primary-color)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: none;
+}

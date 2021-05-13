@@ -1,4 +1,5 @@
 @import "./base/reset", "./base/typography.scss";
+@import "./components/loader", "./components/heart";
 @import "./layout/header", "./layout/footer", "./layout/photo", "./layout/menu",
   "./layout/presentationbutton";
 @import "./pages/index.scss";

@@ -16,6 +16,97 @@ body {
     border-right: 2px solid #ff79da;
   }
 }
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation: loader 0.01s;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@keyframes loader {
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.loader__container {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.loader__container div {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: get-bigger 1s cubic-bezier(0, 0.2, 0.8, 1) 1s;
+  animation-iteration-count: 3;
+}
+
+.loader__container div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+@keyframes get-bigger {
+  0% {
+    border: 4px solid #9356dc;
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  50% {
+    border: 4px solid #ff79da;
+    opacity: 0.5;
+  }
+  75% {
+    border: 4px solid #99e2d0;
+    opacity: 0.15;
+  }
+  100% {
+    border: 4px solid #99e2d0;
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+.heart {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  transition: 300ms;
+}
+
+.heart--hover {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: none;
+}
+
+.fa-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: none;
+}
+
 header {
   height: 5rem;
   background-color: #fff;
@@ -231,6 +322,11 @@ footer .footer__links {
   color: white;
   font-weight: 500;
   font-size: 1rem;
+  transition: all, 200ms;
+}
+.presentation__button:hover {
+  background: linear-gradient(rgba(255, 121, 218, 0.8), rgba(147, 86, 220, 0.8));
+  box-shadow: 0 4px 15px 2px #afafaf;
 }
 
 .localisation {
@@ -415,11 +511,6 @@ footer .footer__links {
 .restaurant__card .card__text .text {
   padding-left: 15px;
   height: 100%;
-}
-.restaurant__card .card__text i {
-  position: absolute;
-  right: 20px;
-  top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

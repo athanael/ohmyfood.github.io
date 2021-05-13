@@ -16,4 +16,12 @@
   color: white;
   font-weight: 500;
   font-size: 1rem;
+  transition: all, 200ms;
+  &:hover {
+    background: linear-gradient(
+      rgb(255, 121, 218, 0.8),
+      rgb(147, 86, 220, 0.8)
+    );
+    box-shadow: 0 4px 15px 2px #afafaf;
+  }
 }
