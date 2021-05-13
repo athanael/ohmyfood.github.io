@@ -54,6 +54,20 @@
   box-shadow: 0 4px 15px -2px #afafaf;
   border-radius: 1rem;
   position: relative;
+  animation: loadElements 1s;
+  animation-fill-mode: backwards;
+}
+
+.delay1 {
+  animation-delay: 0.1s;
+}
+
+.delay2 {
+  animation-delay: 0.4s;
+}
+
+.delay3 {
+  animation-delay: 0.7s;
 }
 
 .plat__button {

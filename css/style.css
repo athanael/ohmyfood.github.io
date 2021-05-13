@@ -139,6 +139,14 @@ body {
   transition-duration: 0.5s;
 }
 
+@keyframes loadElements {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 header {
   height: 5rem;
   background-color: #fff;
@@ -275,6 +283,20 @@ footer .footer__links {
   box-shadow: 0 4px 15px -2px #afafaf;
   border-radius: 1rem;
   position: relative;
+  animation: loadElements 1s;
+  animation-fill-mode: backwards;
+}
+
+.delay1 {
+  animation-delay: 0.1s;
+}
+
+.delay2 {
+  animation-delay: 0.4s;
+}
+
+.delay3 {
+  animation-delay: 0.7s;
 }
 
 .plat__button {
