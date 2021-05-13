@@ -328,7 +328,7 @@ footer .footer__links {
   margin: 0;
 }
 .plat__button:hover > .hover__container > .confirmation > .confirmation--icon {
-  transform: rotate(-180deg);
+  transform: rotate(-540deg);
 }
 
 .plat__text {
