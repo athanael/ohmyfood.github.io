@@ -8,7 +8,7 @@
   height: fit-content;
   background-color: $softgrey;
   border-radius: 3rem 3rem 0 0;
-  margin-top: 5px;
+  margin-top: 50px;
 }
 
 .plats__liste {
@@ -86,11 +86,7 @@
   padding-bottom: 25px;
 }
 
-@media (max-width: 450px) {
-  .menu {
-    margin-top: 30px;
-  }
-  h1 {
-    font-size: 30px;
-  }
+.title-container {
+  width: 100%;
+  padding-right: 100px;
 }

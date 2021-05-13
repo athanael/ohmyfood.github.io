@@ -2,6 +2,9 @@
 @import "../utils/mixins";
 .header__menu {
   @include flexdisplay(space-between, center);
+  .heart {
+    top: 16px;
+  }
 }
 
 .photo {
