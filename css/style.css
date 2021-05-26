@@ -421,7 +421,7 @@ footer .footer__links {
   margin-right: 1rem;
   align-self: center;
 }
-.localisation h2 {
+.localisation h1 {
   margin: 0;
 }
 .localisation span {
@@ -437,9 +437,10 @@ footer .footer__links {
   height: fit-content;
   padding: 1.25rem 1rem;
 }
-.presentation h1 {
+.presentation h2 {
   margin-bottom: 9px;
   text-align: center;
+  font-size: 1.5rem;
 }
 .presentation p {
   text-align: center;
